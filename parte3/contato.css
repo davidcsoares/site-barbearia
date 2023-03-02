@@ -1,0 +1,112 @@
+body{
+    background-color: #fefefe;
+}
+
+.cabecalho{
+    background-color: #b5a89e;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.barra-navegacao{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.barra-navegacao li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.barra-navegacao a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0245a6;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 25px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#enviar{
+    padding: 25px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 26px;
+    background-color: #0245a6;
+    border: none;
+    color: #fefefe;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: darkblue;
+    transform: scale(1.2);
+}
+
+#aceite{
+    margin: 18px 0;
+}
+
+table{
+    margin: 25px 0;
+    border: 2px solid black;
+}
+
+thead th{
+    padding: 16px;
+    background-color: #b5a89e;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+tbody tr td{
+    padding: 16px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.rodape{
+    background-image: url(./assets/bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 25px;
+}
+
+.copy{
+    color: #fefefe;
+    font-size: 13px;
+    margin-top: 20px;
+}

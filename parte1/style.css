@@ -1,0 +1,124 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: #b5a89e;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.barra-navegacao{
+    position: absolute;
+    display: inline;
+    top: 110px;
+    right: 0;
+}   
+
+.barra-navegacao li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.barra-navegacao a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0245a6;
+    text-decoration: underline;
+}
+
+#banner{
+    width: 100%;
+}
+
+.titulo-central {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.sobre{
+    padding: 30px;
+}
+
+.sobre img {
+    width: 120px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+.sobre p {
+    text-align:left;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.sobre p em strong{
+    color: red;
+    font-style: italic;
+}
+
+.localizacao {
+    padding: 30px;
+}
+
+.mapa{
+    position: relative;
+    left: 20%;
+}
+
+.beneficios{
+    background-color: whitesmoke;
+    padding: 30px;
+    position: relative;
+}
+
+.beneficios .conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.beneficios li{
+    font-style: italic;
+}
+
+.beneficios ul{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15% 15% 0 0;
+    width: 20%;
+}
+
+.beneficios img{
+    width: 60%;
+}
+
+#bannerbeneficios {
+    width: 50%;
+    padding: 25px;
+}
+
+.rodape{
+    background-image: url(./assets/bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 25px;
+}
+
+.copy{
+    color: #fefefe;
+    font-size: 13px;
+    margin-top: 20px;
+}

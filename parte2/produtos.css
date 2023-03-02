@@ -1,0 +1,91 @@
+body{
+    background-color: #fefefe;
+}
+
+.cabecalho{
+    background-color: #b5a89e;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.barra-navegacao{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.barra-navegacao li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.barra-navegacao a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0245a6;
+    text-decoration: underline;
+}
+
+.servicos{
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li{
+    display: inline-block;
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.servicos h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.servicos li:active{
+    border-color: #0245a6;
+}
+
+.servicos li:hover h2 {
+    font-size: 40px;
+}
+
+.rodape{
+    background-image: url(./assets/bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 25px;
+}
+
+.copy{
+    color: #fefefe;
+    font-size: 13px;
+    margin-top: 20px;
+}
